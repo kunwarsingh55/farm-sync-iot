@@ -1,0 +1,11 @@
+<ul>
+    <li>Go to <a href="{% url 'authz:open' %}">{% url 'authz:open' %}</a> (No login required)</li>
+
+    <li>Go to <a href="{% url 'authz:apereo' %}">{% url 'authz:apereo' %}</a> (No login required)</li>
+
+    <li>Go to <a href="{% url 'authz:manual' %}">{% url 'authz:manual' %}</a> (protected by user.is_authenciated)</li>
+
+    <li>Go to <a href="{% url 'authz:protect' %}">{% url 'authz:protect' %}</a> (protected by LoginRequiredMixin)</li>
+
+    <li>Go to <a href="{% url 'authz:python' %}">{% url 'authz:python' %}</a> (Dump request.user data in python)</li>
+</ul>
