@@ -1,0 +1,23 @@
+.graph-card-style{
+    margin: 1rem;
+    height: auto;
+    width: auto;
+    border-radius: 30px;
+    border-style: none;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.graph-card-body-style{
+    text-align: left;
+    display: flex;
+    flex-direction: column;   
+    text-align: center; 
+}
+
+
+
+
+
+

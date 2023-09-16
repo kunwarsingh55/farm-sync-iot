@@ -1,0 +1,12 @@
+.sidebar-style {
+    border-right: 2px solid #bcbcbc;
+    width: 18%;
+    height: 100vh;
+    background-color: #f9fafb;
+
+}
+
+.logo-style{
+    height : auto;
+    width : 50px;
+}

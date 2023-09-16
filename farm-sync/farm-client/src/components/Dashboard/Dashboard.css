@@ -1,0 +1,9 @@
+.dash-devices{
+    display: flex;
+    flex-direction: row;
+}
+
+.dash{
+    padding: 2rem;
+
+}
