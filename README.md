@@ -36,12 +36,12 @@ To set up and run this IoT system locally, follow these steps:
 
 1. **Backend Setup**: 
    - Clone this repository.
-   - Navigate to the `backend` directory.
+   - Navigate to the `server` directory.
    - Install the required Node.js packages by running `npm install`.
-   - Start the backend server with `npm start`.
+   - Start the backend server with `nodemon`.
 
 2. **Frontend Setup**:
-   - Navigate to the `frontend` directory.
+   - Navigate to the `client` directory.
    - Install the necessary dependencies with `npm install`.
    - Start the frontend with `npm start`.
 
