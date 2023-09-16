@@ -3,13 +3,13 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const tSensorSchema = new Schema({
-    value:{
+    value: {
         type: Number,
         required: true
     },
-    date:{
+    date: {
         type: String,
-        default:Date.now
+        default: Date.now
     },
 })
 

@@ -1,18 +1,18 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 
 const mSensorSchema = new Schema({
-    value:{
+    value: {
         type: Number,
-        required: true
+        required: true,
     },
-    date:{
+    date: {
         type: String,
-        default:Date.now
+        default: Date.now,
     },
-})
+});
 
-const mSensor = mongoose.model('mSensor', mSensorSchema);
+const mSensor = mongoose.model("mSensor", mSensorSchema);
 mSensor.createIndexes();
 module.exports = mSensor;
