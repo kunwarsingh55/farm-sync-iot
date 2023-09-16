@@ -4,7 +4,7 @@ This is a simple IoT (Internet of Things) system built using a Raspberry Pi, var
 
 <img src="/images/dashboard.gif" alt="Raspberry Pi" height="500">
 <div style="display:flex; flex-direction:row;">
-  <img src="/images/farm.JPEG" alt="Raspberry Pi" width="520" height="520">
+  <img src="/images/farm.JPEG" alt="Raspberry Pi" width="400">
 <img src="/images/pi.gif" alt="Raspberry Pi" height="520">
 </div>
 
